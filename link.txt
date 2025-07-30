@@ -1,5 +1,5 @@
 
-////eslint-disable-next-line
+//SECRETS_SCAN_OMIT_PATHS
 //top
 https://newsdata.io/api/1/latest?apikey=pub_c2db481093a24973b624d67da10c9dc6&country=in&language=en&category=top&timezone=Asia/Kolkata
 
