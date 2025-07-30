@@ -9,7 +9,7 @@ const [error, setError] = useState(null);
 useEffect(() => {
   async function fetchNews() {
    //SECRETS_SCAN_OMIT_PATHS
-    // const API_KEY = "pub_c2db481093a24973b624d67da10c9dc6";
+  
     const API_KEY = process.env.REACT_APP_API_KEY;
           const urlNew = [
             `apikey=${API_KEY}`,
