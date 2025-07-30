@@ -8,6 +8,7 @@ const [error, setError] = useState(null);
 
 useEffect(() => {
   async function fetchNews() {
+    //eslint-disable-next-line
     const API_KEY = "pub_c2db481093a24973b624d67da10c9dc6";
           const urlNew = [
             `apikey=${API_KEY}`,
